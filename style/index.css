@@ -1,0 +1,40 @@
+*{
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  width: 500px;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+.input__file_button_text, .submit{
+  width: 100%;
+  max-width: 290px;
+  height: 60px;
+  background: #1bbc9b;
+  color: #fff;
+  font-size: 1.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.submit{
+  margin-top: 20px;
+  border: 0px solid #fff;
+}
+.input__file_button_text:hover,.submit:hover{
+  background: #26e0ba;
+}
